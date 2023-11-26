@@ -1,25 +1,23 @@
-
-
 export const addAdmin = (req, res) => {
-  // register a new admin
+  res.status(200).json({ message: "Add admin" });
 };
 
 export const loginAdmin = (req, res) => {
-  // login admin
+  res.status(200).json({ message: "Login Admin" });
 };
 
-export const getCourse = (req, res) => {
-  // get all courses
+export const getCourses = (req, res) => {
+  res.status(200).json({ message: "Get courses" });
 };
 
 export const createCourse = (req, res) => {
-  // create course
+  res.status(200).json({ message: "Add a course" });
 };
 
 export const editCourse = (req, res) => {
-  // edit course
+  res.status(200).json({ message: "Edit a course" });
 };
 
 export const removeCourse = (req, res) => {
-  // remove course
+  res.status(200).json({ message: "Delete a course" });
 };
